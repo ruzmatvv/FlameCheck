@@ -1,0 +1,32 @@
+# secrets: tokens, keys, passwords
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+.secrets/
+credentials*.json
+client_secret*.json
+*oauth-token*
+*oauth_token*
+.npmrc
+.claude/settings.local.json
+CLAUDE.local.md
+
+# local caches and output
+node_modules/
+dist/
+.wrangler/
+.wrangler-tmp/
+*.log
+*.tmp
+*.zip
+*.bundle
+.playwright-mcp/
+Thumbs.db
+.DS_Store

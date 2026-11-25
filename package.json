@@ -1,0 +1,1 @@
+{"name":"flamecheck","private":true,"type":"module","scripts":{"test":"node --test test/flamecheck.test.mjs","start":"npx wrangler dev","sync":"node scripts/sync-shared.mjs","deploy":"node --test test/flamecheck.test.mjs && npx wrangler deploy"}}
