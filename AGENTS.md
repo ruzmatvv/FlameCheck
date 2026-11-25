@@ -7,6 +7,8 @@ Bu faylni Codex va Google Antigravity o'zi o'qiydi, Claude Code esa `CLAUDE.md` 
 - Fayllar: `public/` (sahifa, `app.js`, `logic.js`, `i18n.js`, `style.css`, `_headers`), `public/cs2/` (skinlar va xaritalar), `test/`.
 - Hamroh sayt https://framecheck.uk alohida repozitoriyda: `ruzmatvv/FrameCheck`.
 - Node versiyasi `.node-version` da. Tashqi paketlar yo'q.
+- **Avtomatik deploy yoqilgan** (Cloudflare Workers Builds): `main` ga tushgan har commit jonli saytga chiqadi
+  (`npm test`, keyin `npx wrangler@4.168.0 deploy`). Test o'tmasa deploy bo'lmaydi.
 
 ## Buyruqlar
 `npm test` · `npm start` · `npm run sync` · `npm run deploy` (qo'lda joylash, faqat egasining ruxsati bilan).
